@@ -1,0 +1,25 @@
+# dsh-prompt-inject bundle patch: one insert row activating the plugin.
+#
+# Loaded because the package name is listed in the profile's
+# package.json -> dsh.profile.bundles. The profile's cordis.patch.yml can
+# override any field below with an entry of its own:
+#
+#   - id: prompt-inject
+#     config:
+#       variable: inject
+#       textFile: '<文本文件的绝对路径>'
+#
+# See README.md for the full config surface.
+- insert:
+    - id: prompt-inject
+      name: 'dsh-prompt-inject'
+      config:
+        # 注册的变量名；预设前缀里写 {{<这个名字>}}
+        variable: inject
+        # 文本来源：textFile 优先，其次是 text；两者都空 = 不注入任何内容
+        textFile: ''
+        text: ''
+        # agent 预设 id 白名单（会话创建记录里的 agentPreset），空数组 = 不限制
+        presets: []
+        # 总开关
+        enabled: true
