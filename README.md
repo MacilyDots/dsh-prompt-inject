@@ -1,5 +1,7 @@
 # dsh-prompt-inject
 
+[![DSH Market](https://raw.githubusercontent.com/2BingLing/dsh-market/master/assets/readme/badge-listed-zh.svg)](https://dsh.market/)
+
 给「用了 `complete: true` 的 DSH agent 预设」注入一段附加提示文本。
 
 ## 为什么需要它
