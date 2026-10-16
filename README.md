@@ -48,10 +48,15 @@ unknown prompt variable "{{x}}" in section "..."
 下文用 `%DSH_HOME%` 指 DSH 主目录（Windows 默认 `%USERPROFILE%\.dsh`，
 其它平台 `~/.dsh`），profile 名默认 `desktop`。
 
+从 npm 装：
+
+```sh
+dsh plugin --profile desktop add @macily.dots/dsh-prompt-inject
+```
+
 > 这个包在 npm 上的名字是 **`@macily.dots/dsh-prompt-inject`**（无 scope 的
-> `dsh-prompt-inject` 已被另一个不相关的包占用）。所以可以选择
-> `dsh plugin --profile desktop add @macily.dots/dsh-prompt-inject`，也可以照下面的手动步骤来——
-> 两者等价，手动那套在离线或想直接盯 node_modules 时更方便。
+> `dsh-prompt-inject` 已被另一个不相关的包占用）。也可以照下面的手动步骤来——两者等价，
+> 手动那套在离线或想直接盯 node_modules 时更方便。
 
 1. 把本仓库放进 profile 的 node_modules：
 
