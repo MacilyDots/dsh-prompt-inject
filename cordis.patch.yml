@@ -12,7 +12,7 @@
 # See README.md for the full config surface.
 - insert:
     - id: prompt-inject
-      name: 'dsh-prompt-inject'
+      name: '@macily.dots/dsh-prompt-inject'
       config:
         # 注册的变量名；预设前缀里写 {{<这个名字>}}
         variable: inject

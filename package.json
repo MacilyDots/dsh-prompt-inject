@@ -1,6 +1,6 @@
 {
   "name": "@macily.dots/dsh-prompt-inject",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "DSH plugin: register a configurable prompt variable so agent presets that use complete:true personas (which drop every other system-prompt section) can still receive an injected text block.",
   "type": "module",
   "main": "./lib/index.js",
@@ -24,7 +24,7 @@
     "persona"
   ],
   "license": "MIT",
-  "author": "MacilyDots <maicly@foxmail.com>",
+  "author": "MacilyDots <macily@foxmail.com>",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MacilyDots/dsh-prompt-inject.git"

@@ -9,7 +9,7 @@ import fs from 'node:fs'
 import os from 'node:os'
 import path from 'node:path'
 
-export const PLUGIN_NAME = 'dsh-prompt-inject'
+export const PLUGIN_NAME = '@macily.dots/dsh-prompt-inject'
 export const PLUGIN_ID = 'prompt-inject'
 
 export const DSH_HOME = process.env.DSH_HOME || path.join(os.homedir(), '.dsh')
