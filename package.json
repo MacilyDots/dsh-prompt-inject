@@ -1,6 +1,9 @@
 {
   "name": "@macily.dots/dsh-prompt-inject",
   "version": "0.1.2",
+  "engines": {
+    "dsh": ">=0.2.2-rc.1 <0.3.0"
+  },
   "description": "DSH plugin: register a configurable prompt variable so agent presets that use complete:true personas (which drop every other system-prompt section) can still receive an injected text block.",
   "type": "module",
   "main": "./lib/index.js",
