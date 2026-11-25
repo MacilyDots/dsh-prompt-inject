@@ -6,6 +6,9 @@
   },
   "description": "DSH plugin: register a configurable prompt variable so agent presets that use complete:true personas (which drop every other system-prompt section) can still receive an injected text block.",
   "type": "module",
+  "scripts": {
+    "test": "node --test test/prompt-inject.test.mjs"
+  },
   "main": "./lib/index.js",
   "exports": {
     ".": "./lib/index.js",
